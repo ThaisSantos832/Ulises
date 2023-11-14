@@ -29,11 +29,8 @@ header > h1 > a{
 }
 
 nav{
-    width: 20rem;
-    margin-right: 20rem;
-   
-    
-
+    width: 30rem;
+    margin-right: 10rem;
 }
 
 .content-list-nav-bar{
@@ -52,3 +49,6 @@ nav{
     font-family: var(--font-secundary);
     font-weight: 600;
 }
+
+
+/* PÁGINAS HTML CRIACAO E HISTORIA */
