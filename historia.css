@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:wght@300;400;500;600;800&display=swap');
+
+:root{
+    --font-primary: 'Comic Neue', sans-serif;
+    --font-secundary: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(216, 216, 216);
+}
+
+#conteudo-principal, .conteudo-secundario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.8rem;
+}
+
+.title-page{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.container-text{
+    width: 30rem;
+    font-family: var(--font-secundary);
+    margin-left: 2rem;
+    text-align: justify;
+}
+
+.container-text > p{
+    font-size: 1.2rem;
+}
+
+hr{
+    margin-top: 7rem;
+    height: 2rem;
+    background-color: rgb(47, 41, 41);
+}
+
+.container-image{
+    margin-right: 2rem;
+}
+
+.conteudo-secundario{
+    margin-top: 7rem;
+}
+
+.conteudo-secundario > .container-image > img{
+    width: 30rem;
+}
