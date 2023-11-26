@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:wght@300;400;500;600;800&display=swap');
+@import "style.css";
+
+.container-boxes{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.container-boxes > h2{
+    font-size: 3rem;
+}
+
+#boxes{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.box{
+    width: 20rem;
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 2rem 0;
+    transition: ease-in 2s;
+}
+
+.box:nth-child(5){
+    width: 30rem;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+.box > h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.box > p{
+    margin-top: 1rem;
+}
